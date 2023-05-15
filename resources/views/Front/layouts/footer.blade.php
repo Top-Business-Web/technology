@@ -80,6 +80,32 @@
                                     >
                                 </li>
 
+                                <li class="email">
+
+                                    {{ trans('site.support_email') }} :
+                                    <a
+                                        href="mailto:{{ $settings->linked_in }}"
+                                    ><span
+                                            class="__cf_email__"
+                                            data-cfemail="e1888f878ea1848f8493868880cf828e8c"
+                                        >{{ $settings->linked_in }}</span
+                                        ></a
+                                    >
+                                </li>
+
+                                <li class="email">
+
+                                    {{ trans('site.sales_email') }}:
+                                    <a
+                                        href="mailto:{{ $settings->youtube }}"
+                                    ><span
+                                            class="__cf_email__"
+                                            data-cfemail="e1888f878ea1848f8493868880cf828e8c"
+                                        >{{ $settings->youtube }}</span
+                                        ></a
+                                    >
+                                </li>
+
 
                                 <li class="address">
                                     @lang('site.address')
@@ -115,7 +141,7 @@
                             <ul class="list-unstyled social-icons">
 
                                 <li>
-                                    <a class="share-facebook" href="{{ $settings->linked_in }}"
+                                    <a class="share-facebook" href="{{ $settings->facebook }}"
                                     ><i class="energia-facebook"></i>@lang('site.facebook')
                                     </a>
                                 </li>

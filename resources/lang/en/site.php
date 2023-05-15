@@ -156,6 +156,8 @@ return [
     'Solar material financing' => 'camera Material Financing',
     'In-time manufacturing' => 'In-time manufacturing',
     '50% more energy output' => '50% More Safety',
+    'support_email' => 'Support Email',
+    'sales_email' => 'Sales Email',
     'Built using ntype mono' => 'Built using ntype mono',
     'Receive an accurate' => 'Receive an accurate quote within 3-5 days when you fill out this form. Or, give us a call:',
     'We take great pride' => 'We take great pride in everything that we do, control over products allows us to ensure our customers receive the best quality service.',
