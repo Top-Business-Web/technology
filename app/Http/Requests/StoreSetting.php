@@ -42,7 +42,7 @@ class StoreSetting extends FormRequest
             'shipping_policy' => 'required',
             'returns' => 'required',
             'work_date' => 'required',
-            'location' => 'required',
+            'location' => 'nullable',
         ];
     }
 }

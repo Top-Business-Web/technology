@@ -23,13 +23,17 @@ class SettingController extends Controller
 
         $inputs = $request->all();
 
-        if ($request->has('logo'))
-        {
-            if (file_exists(public_path('assets/uploads/admins/images/') .$settings->logo)) {
-                unlink(('assets/uploads/admins/images/') .$settings->logo);
-            }
-            $inputs['logo'] =  $request->logo != null ? $this->saveImage($request->logo, 'assets/uploads/admins/images' , 'photo') : $inputs['logo'];
+        if($request->hasFile('logo')){
+            $inputs['logo'] = $this->saveImage($request->logo, 'logo', 'photo');
         }
+
+        // if ($request->has('logo'))
+        // {
+        //     if (file_exists(public_path('assets/uploads/admins/images/') .$settings->logo)) {
+        //         unlink(('assets/uploads/admins/images/') .$settings->logo);
+        //     }
+        //     $inputs['logo'] =  $request->logo != null ? $this->saveImage($request->logo, 'assets/uploads/admins/images' , 'photo') : $inputs['logo'];
+        // }
         if($request->has('files')){
             foreach($request->file('files') as $file)
             {

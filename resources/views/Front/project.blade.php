@@ -13,7 +13,7 @@
                         <div class="title text-center">
                             <h1 class="title-heading">@lang('site.Projects')</h1>
                             <p class="title-desc">
-                                {{ lang() == 'ar' ? 'نحن نقدم المنتجات والحلول والخدمات عبر سلسلة قيمة الطاقة بأكملها. نحن ندعم عملائنا في طريقهم إلى مستقبل أكثر استدامة.' : 'We offer products, solutions, and services across the entire energy value chain. We support our customers on their way to a more sustainable future.' }}
+                                {{ trans('site.the_role_of_cameras_and_networks') }}
                             </p>
                         </div>
                     </div>

@@ -54,11 +54,11 @@ To make it easy to update your theme, you should not edit the styles in this fil
 the custom.css file to add your styles. You can copy a style from this file and paste it in
 custom.css and it will override the style in this file. You have been warned! :)*/
 :root {
-  --global--color-primary: #0072bc;
+  --global--color-primary: #c75a21;
   --global--color-primary-90: rgba(50, 195, 108, 0.9);
   --global--color-primary-70: rgba(50, 195, 108, 0.7);
   --global--color-heading: #253745;
-  --global--color-secondary: #2b3e4b;
+  --global--color-secondary: #0F0F0F;
   --global--color-body: #9b9b9b;
   --global--color-white: #ffffff;
   --global--color-white-90: rgba(255, 255, 255, 0.9);
@@ -2132,7 +2132,7 @@ ul.list-icons li i {
 }
 .header .navbar-brand .logo {
   max-width: 100%;
-  width: 120px;
+  width: 100%;
   height: 60px;
 }
 @media screen and (max-width: 991.98px) {

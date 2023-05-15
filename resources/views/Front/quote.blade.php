@@ -27,7 +27,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <div class="title">
-                            <h1 class="title-heading">@lang('site.requesta quote')</h1>
+                            <h1 class="title-heading">@lang('site.requesta_quote')</h1>
                         </div>
                     </div>
                 </div>
@@ -40,13 +40,13 @@
             <div class="contact-panel contact-panel-3">
                 <div class="heading heading-6">
                     <p class="heading-subtitle">
-                        @lang('site.Improving The Performance Of Solar Energy.')
+                        @lang('site.How_can_network_connected')
                     </p>
                     <h2 class="heading-title">
-                        @lang('site.Discover Independence Through Using The Power Of Solar Panels!')
+                        @lang('site.discover_independence')
                     </h2>
                     <p class="heading-desc">
-                        @lang('site.We offer')
+                        @lang('site.enhancing_sustainability')
                     </p>
                     <div class="advantages-list-holder">
                         <div class="row">
@@ -54,13 +54,12 @@
                                 <ul class="list-unstyled advantages-list advantages-list-3">
                                     <li>@lang('site.Reliabe and performance')</li>
                                     <li>@lang('site.Solar material financing')</li>
-                                    <li>@lang('site.In-time manufacturing')</li>
                                 </ul>
                             </div>
                             <div class="col-12 col-lg-6">
                                 <ul class="list-unstyled advantages-list advantages-list-3">
                                     <li>@lang('site.50% more energy output')</li>
-                                    <li>@lang('site.Built using ntype mono')</li>
+                                    <li>@lang('site.In-time manufacturing')</li>
                                 </ul>
                             </div>
                         </div>

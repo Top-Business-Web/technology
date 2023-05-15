@@ -21,10 +21,10 @@
         <div class="container-fluid pe-0 ps-0">
             <div class="slider-carousel owl-carousel carousel-navs carousel-dots" data-slide="1" data-slide-rs="1"
                  data-autoplay="true" data-nav="true" data-dots="true" data-space="0" data-loop="true" data-speed="800">
-                {{-- @foreach ($settings->sliders as $slider) --}}
+                @foreach ($settings->sliders as $slider)
                     <div class="slide bg-overlay bg-overlay-dark-slider-2">
                         <div class="bg-section">
-                            <img src="" alt="Background"/>
+                            <img src="{{ $slider }}" alt="Background"/>
                         </div>
 
                         <div class="container">
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                {{-- @endforeach --}}
+                @endforeach
             </div>
         </div>
     </section>
@@ -62,15 +62,15 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <div class="feature-panel">
                         <div class="feature-content">
-                            <i class="flaticon-024-energy"></i>
-                            <h5>@lang('site.save_your_money')</h5>
+                            <i><img src="{{ asset('assets/front/40 icon/6.png') }}" style="height: auto; max-width: 100%;" alt=""></i>
+                            <h5>@lang('site.high_sound_quality')</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <div class="feature-panel">
                         <div class="feature-content">
-                            <i class="flaticon-009-ecology-1"></i>
+                            <i><img src="{{ asset('assets/front/40 icon/1.png') }}" style="height: auto; max-width: 100%;" alt=""></i>
                             <h5>@lang('site.five_stars_service')</h5>
                         </div>
                     </div>
@@ -78,39 +78,39 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <div class="feature-panel">
                         <div class="feature-content">
-                            <i class="flaticon-028-greenhouse"></i>
-                            <h5>@lang('site.home_is_energy')</h5>
+                            <i><img src="{{ asset('assets/front/40 icon/2.png') }}" style="height: auto; max-width: 100%;" alt=""></i>
+                            <h5>@lang('site.shield_and_security')</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <div class="feature-panel">
                         <div class="feature-content">
-                            <i class="flaticon-026-world"></i>
-                            <h5>@lang('site.consultation_planning')</h5>
+                            <i><img src="{{ asset('assets/front/40 icon/11.png') }}" style="height: auto; max-width: 100%;" alt=""></i>
+                            <h5>@lang('site.high_resolution')</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <div class="feature-panel">
                         <div class="feature-content">
-                            <i class="flaticon-038-ecology"></i>
-                            <h5>@lang('site.certified_engineers')</h5>
+                            <i><img src="{{ asset('assets/front/40 icon/15.png') }}" style="height: auto; max-width: 100%;" alt=""></i>
+                            <h5>@lang('site.accurate_repair')</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <div class="feature-panel">
                         <div class="feature-content">
-                            <i class="flaticon-003-fuel-1"></i>
-                            <h5>@lang('site.unbeatable_pricing')</h5>
+                            <i><img src="{{ asset('assets/front/40 icon/38.png') }}" style="height: auto; max-width: 100%;" alt=""></i>
+                            <h5>@lang('site.water_resistant')</h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="more-features more-features-2">
-                    <p>@lang('site.Discover_of_solar')</p>
+                    <p>@lang('site.Our_advanced_camera')</p>
                     <a class="btn btn--bordered btn--white"
                        href="{{ route('service') }}">@lang('site.explore_our_plans')</a>
                 </div>
@@ -124,8 +124,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <h2 class="heading-title">
-                            {{ lang() == 'ar' ? 'مورد رائد لمواد الطاقة الشمسية للمصنعين والمقاولين.' : 'A Leading Supplier Of Solar Materials For Manufacturers
-                            Installers & Contractors.' }}
+                            {{ trans('site.We_specialize_in_camera') }}
                         </h2>
                     </div>
                     <div class="col-12 col-lg-6">
@@ -162,7 +161,7 @@
             <div class="video-wrapper">
                 <div class="video video-2" id="video-2">
                     <div class="bg-section">
-                        <img src="{{ asset('assets/front') }}/assets/images/sliders/3.jpg" alt="background"/>
+                        <img src="{{ asset('assets/front/image/download.jfif') }}" alt="background"/>
                     </div>
                 </div>
             </div>
@@ -171,10 +170,10 @@
                 <div class="about-block">
                     <div class="heading heading-1">
                         <p class="heading-subtitle heading-subtitle-bg">
-                            @lang('site.Complete_Solar_Systems')
+                            @lang('site.security_cameras')
                         </p>
                         <h2 class="heading-title">
-                            @lang('site.The Pioneers World Of Solar And Renewable Energy!')
+                            @lang('site.explore_the_world')
                         </h2>
                         <p class="heading-desc">
                         </p>
@@ -193,16 +192,14 @@
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <p>
-                                        {{ lang() == 'ar' ? 'كيف يمكننا تلبية الطلب المتزايد على الكهرباء في حين
-                                         حماية مناخنا؟' : 'How can we meet the growing demand for electricity while
-                                        protecting our climate?' }}
+                                        {{ trans('site.meeting_the_growing') }}
                                     </p>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <ul class="list-unstyled advantages-list">
                                         <li>{{ lang() == 'ar' ? 'موثوقة والأداء' : 'Reliabe and performance' }}</li>
                                         <li>{{ lang() == 'ar' ? 'التصنيع في الوقت المناسب' : 'In-time manufacturing' }}</li>
-                                        <li>{{ lang() == 'ar' ? 'تمويل مواد الطاقة الشمسية' : 'Solar material financing' }}</li>
+                                        <li>{{ lang() == 'ar' ? 'تمويل مواد الطاقة الكهربائية' : 'electrical material financing' }}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -272,7 +269,7 @@
                     <div class="heading heading-light heading-light2">
                         <p class="heading-subtitle">@lang('site.how it works!')</p>
                         <h2 class="heading-title">
-                            @lang('site.Fueling The Transition To Renewable Power')
+                            @lang('site.cameras_and_security')
                         </h2>
                     </div>
                     <div class="counters-holder">
@@ -289,10 +286,10 @@
                                 </div>
                                 <div class="counter-img">
                                     <div class="bg-section">
-                                        <img src="{{ asset('assets/front') }}/assets/images/counters/1.jpg"
+                                        <img src="{{ asset('assets/front/image/download.jfif') }}"
                                              alt="image"/>
                                     </div>
-                                    <i class="flaticon-020-factory"></i>
+                                    <i><img src="{{ asset('assets/front/40 icon/18.png') }}" style="height: auto; max-width: 100%;" alt=""></i>
                                 </div>
                             </div>
                             <div class="counter-desc">
@@ -329,16 +326,16 @@
                         <div class="carousel owl-carousel process-image-carousel" data-slide="1" data-slide-rs="1"
                              data-autoplay="true" data-drag="false" data-nav="false" data-dots="false" data-space="0"
                              data-loop="false" data-speed="800">
-                            <img src="{{ asset('assets/front') }}/assets/images/processes/1.jpg" alt="process"/><img
-                                src="assets/images/processes/2.jpg" alt="process"/><img
-                                src="{{ asset('assets/front') }}/assets/images/processes/3.jpg" alt="process"/>
+                            <img src="{{ asset('assets/front/image/download.jfif') }}" alt="process"/><img
+                                src="{{ asset('assets/front/image/camera.jfif') }}" alt="process"/><img
+                                src="{{ asset('assets/front/image/download.jfif') }}" alt="process"/>
                         </div>
                         <div class="processes-panel">
                             <h3 class="panel-title">
-                                @lang('site.contact title 1')
+                                @lang('site.object_camera_security')
                             </h3>
                             <p class="panel-desc">
-                                @lang('site.contact title 2')
+                                @lang('site.with_object_camera_security')
                             </p>
                             <a href="{{ route('contact') }}">@lang('site.schedule A Visit') <i
                                     class="energia-arrow-right"></i></a>

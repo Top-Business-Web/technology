@@ -30,10 +30,7 @@
                         <div class="title">
                             <h1 class="title-heading">@lang('site.About Us')</h1>
                             <p class="title-desc">
-                                {{ lang() == 'ar' ? 'نحن نقدم المنتجات والحلول والخدمات في جميع أنحاء
-                                 سلسلة قيمة الطاقة. نحن ندعم عملائنا في طريقهم إلى مستقبل أكثر استدامة.' : 'We offer products, solutions, and services across the entire
-                                energy value chain. We support our customers on their way to
-                                a more sustainable future.' }}
+                                {{ trans('site.We_offer_a_range_of_high_quality') }}
                             </p>
                             <div class="title-action">
                                 <a class="btn btn--primary" href="{{ route('service') }}">
@@ -72,7 +69,7 @@
                         <div>
                             <div class="counter">
                                 <div class="counter-icon">
-                                    <i class="flaticon-033-plug"></i>
+                                    <i><img src="{{ asset('assets/front/40 icon/3.png') }}" style="height: auto; max-width: 100px;" alt=""></i>
                                 </div>
                                 <div class="counter-num">
                                     <span class="counting"
@@ -109,14 +106,12 @@
                                 <div class="block-right">
                                     <div class="prief-set">
                                         <p>
-                                            {{ lang() == 'ar' ? 'كيف يمكننا تلبية الطلب المتزايد على الكهرباء مع حماية مناخنا وجعل كوكبنا مكانًا أفضل؟' : 'How can we meet the growing demand for electricity
-                                            while protecting our climate & make planet a better
-                                            place?' }}
+                                            {{ trans('sitemeeting_the_growing_demand') }}
                                         </p>
                                         <ul class="list-unstyled advantages-list">
                                             <li>{{ lang() == 'ar' ? 'الموثوقية والأداء': 'Reliability and performance' }}</li>
                                             <li>{{ lang() == 'ar' ? 'التصنيع في الوقت المناسب': 'Just-in-time manufacturing' }}</li>
-                                            <li>{{ lang() == 'ar' ? 'تمويل المواد الشمسية': 'solar material financing' }}</li>
+                                            <li>{{ lang() == 'ar' ? 'تمويل المواد الكهربائية': 'Electrical Material Financing' }}</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -132,14 +127,14 @@
 
     <section class="features features-1 bg-overlay bg-overlay-theme2" id="features-1">
         <div class="bg-section">
-            <img src="{{ asset('assets/front') }}/assets/images/background/2.jpg" alt="Background" />
+            <img src="{{ asset('assets/front/image/camera.jfif') }}" alt="Background" />
         </div>
         <div class="container">
             <div class="heading heading-2 heading-light heading-light2">
                 <div class="row">
                     <div class="col-12 col-lg-5">
                         <p class="heading-subtitle">
-                            {{ lang() == 'ar' ? 'طاقة مستدامة وموثوقة وبأسعار معقولة!' : 'Sustainable, Reliable & Affordable Energy!' }}
+                            {{ trans('site.high_quality_and_light_cameras') }}
                         </p>
                     </div>
                 </div>
@@ -153,17 +148,10 @@
                     </div>
                     <div class="col-12 col-lg-6 offset-lg-1">
                         <p class="heading-desc">
-                            {{ lang() == 'ar' ? 'مع تحسين إنتاجية وأداء الطاقة الشمسية
-                             المنتجات ، تتيح لنا خبرتنا في مجال الصناعة الكهروضوئية توفيرها
-                             مصادر متعمقة للمواد والتمويل وسلسلة التوريد
-                             خبرة في كل خطوة.' : 'While improving the yield and performance of solar energy
-                            products, our PV industry experience enables us to provide
-                            in-depth material sourcing, financing and supply chain
-                            expertise for every step.' }}
+                            {{ trans('site.enhancing_camera_network') }}
                         </p>
                         <p class="heading-desc">
-                            {{ lang() == 'ar' ? 'السيليكون الخام متعدد الكريستالات لتصنيع الخلايا الكهروضوئية. متوفر بدرجات وأشكال مختلفة بما في ذلك القطع والرقائق والمسحوق والسبيكة.' : 'Raw polycrystalline silicon for PV manufacturing. Offered in
-                            various grades and formats including chunks, chips, powder and ingot.' }}
+                            {{ trans('site.how_raw_polycrystalline_silicon') }}
                         </p>
                         <div class="actions-holder">
                             <a class="btn btn--primary btn--inversed" href="{{ route('contact') }}">
