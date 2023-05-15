@@ -72,7 +72,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="service-panel">
                             <div class="service-icon">
-                                <i class="{{ $classServices[rand(0, 5)] }}"></i>
+                                <i><img src="{{ asset('assets/front/40 icon/26.png') }}" style="height: auto; max-width: 100px;" alt=""></i>
                             </div>
                             <div class="service-content">
                                 <h4>
@@ -132,7 +132,8 @@
                         <div class="feature-panel-holder" data-hover="">
                             <div class="feature-panel">
                                 <div class="feature-icon">
-                                    <i class="{{ $classServices[rand(0, 5)] }}"></i>
+                                    <i><img src="{{ asset('assets/front/40 icon/7.png') }}"
+                                        style="height: auto; max-width: 100px;" alt=""></i>
                                 </div>
                                 <div class="feature-content">
                                     <h4>{{ trans_model($service, 'title') }}</h4>

@@ -34,9 +34,10 @@
                             </p>
                             <div class="title-action">
                                 <a class="btn btn--primary" href="{{ route('service') }}">
-                                    <span>@lang('site.our services')</span><i class="energia-arrow-right"></i></a>
-                                <a class="btn-video btn-video-2" href="https://www.youtube.com/watch?v=qLFzFy_FHBk&t=73s">
-                                    <i class="fas fa-play"></i></a>
+                                    <span>@lang('site.our services')</span><i class="energia-arrow-right"></i>
+                                </a>
+                                {{-- <a class="btn-video btn-video-2" href="https://www.youtube.com/watch?v=qLFzFy_FHBk&t=73s">
+                                    <i class="fas fa-play"></i></a> --}}
                             </div>
                         </div>
                     </div>
