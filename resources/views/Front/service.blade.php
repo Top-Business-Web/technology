@@ -12,21 +12,25 @@
                         <div class="title">
                             <div class="title-list">
                                 <div class="icon">
-                                    <i class="flaticon-040-green-energy"></i>
+                                    <i><img src="{{ asset('assets/front/40 icon/27.png') }}"
+                                            style="height: auto; max-width: 100px;" alt=""></i>
                                 </div>
-                                <div class="icon"><i class="flaticon-020-factory"></i></div>
+                                <div class="icon"><i><img src="{{ asset('assets/front/40 icon/17.png') }}"
+                                            style="height: auto; max-width: 100px;" alt=""></i></div>
                                 <div class="icon">
-                                    <i class="flaticon-031-nuclear-plant"></i>
+                                    <i><img src="{{ asset('assets/front/40 icon/34.png') }}"
+                                            style="height: auto; max-width: 100px;" alt=""></i>
                                 </div>
                             </div>
                             <h1 class="title-heading">@lang('site.our services')</h1>
                             <p class="title-desc">
-                                @lang('site.We offer');
+                                {{ trans('site.revolutionizing_camera') }}
                             </p>
                             <div class="title-action">
                                 <a class="btn btn--primary btn--inversed" href="{{ route('contact') }}">
                                     @lang('site.get started')<i class="energia-arrow-right"></i></a><a
-                                    class="btn btn--bordered btn--white" href="{{ route('about_us') }}">@lang('site.explore_our_plans')</a>
+                                    class="btn btn--bordered btn--white"
+                                    href="{{ route('about_us') }}">@lang('site.explore_our_plans')</a>
                             </div>
                         </div>
                     </div>
@@ -53,10 +57,10 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 offset-lg-3">
                         <p class="heading-subtitle">
-                            @lang('site.energize society with sustainable energy!')
+                            @lang('site.securing_the_community')
                         </p>
                         <h2 class="heading-title">
-                            @lang('site.a sleading supplier of solar materials for manufacturers,installers & contractors.')
+                            @lang('site.implementing_networked')
                         </h2>
                     </div>
                 </div>
@@ -72,10 +76,11 @@
                             </div>
                             <div class="service-content">
                                 <h4>
-                                    <a href="{{ route('serviceProject',$service->id) }}">{{ trans_model($service,'title') }}</a>
+                                    <a
+                                        href="{{ route('serviceProject', $service->id) }}">{{ trans_model($service, 'title') }}</a>
                                 </h4>
                                 <h6>
-                                    {{ trans_model($service,'desc') }}
+                                    {{ trans_model($service, 'desc') }}
                                 </h6>
                             </div>
                         </div>
@@ -88,14 +93,14 @@
 
     <section class="features features-2 bg-overlay bg-overlay-theme2" id="features-2">
         <div class="bg-section">
-            <img src="{{ asset('assets/front') }}/assets/images/background/2.jpg" alt="Background" />
+            <img src="{{ asset('assets/front/image/download.jfif') }}" alt="Background" />
         </div>
         <div class="container">
             <div class="heading heading-2 heading-light heading-light2">
                 <div class="row">
                     <div class="col-12 col-lg-5">
                         <p class="heading-subtitle">
-                            @lang('site.sustainable, reliable & affordable energy!')
+                            @lang('site.high_quality_and_light_cameras')
                         </p>
                     </div>
                 </div>
@@ -107,15 +112,15 @@
                     </div>
                     <div class="col-12 col-lg-6 offset-lg-1">
                         <p class="heading-desc">
-                            @lang('site.While improving the yield and performance of solar energy products, our PV industry experience enables us to provide in-depth material sourcing, financing and supply chain expertise for every step.')
+                            {{ trans('site.enhancing_camera_network') }}
                         </p>
                         <p class="heading-desc">
-                       @lang('site.Raw polycrystalline silicon for PV manufacturing. Offered invarious grades and formats including chunks, chips, powder and ingot.')
+                            {{ trans('site.how_raw_polycrystalline_silicon') }}
                         </p>
                         <div class="actions-holder">
                             <a class="btn btn--primary btn--inversed" href="{{ route('contact') }}">
-                                @lang('site.get started')<i class="energia-arrow-right"></i></a><a class="btn btn--bordered btn--white"
-                                                                                     href="{{ route('about_us') }}">@lang('site.explore_our_plans')</a>
+                                @lang('site.get started')<i class="energia-arrow-right"></i></a><a
+                                class="btn btn--bordered btn--white" href="{{ route('about_us') }}">@lang('site.explore_our_plans')</a>
                         </div>
                     </div>
                 </div>
@@ -145,7 +150,7 @@
                 <div class="col-12">
                     <div class="more-features more-features-3">
                         <p>
-                            @lang('site.sustainable, reliable & affordable energy!')
+                            @lang('site.sustainable_protection')
                             <a href="{{ route('service') }}">@lang('site.Find Your Solution Now!')</a>
                         </p>
                     </div>
@@ -163,9 +168,10 @@
                             <div class="card-content">
                                 <div class="content-top">
                                     <p>
-                                        @lang('site.As a world wide distributor of solar supplies we endeavor provide fast and knowledgeable service, we can get all the materials you need by sea or air.')
+                                        {{ trans('site.how_the_integration') }}
                                     </p>
-                                    <a href="{{ route('contact') }}"><i class="energia-arrow-right"></i>@lang('site.global offic map')</a>
+                                    <a href="{{ route('contact') }}"><i
+                                            class="energia-arrow-right"></i>@lang('site.global offic map')</a>
                                 </div>
                                 <div class="content-bottom">
                                     <ul class="list-unstyled contact-infos">

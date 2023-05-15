@@ -56,9 +56,7 @@
                             <div class="card-content">
                                 <div class="content-top">
                                     <p>
-                                       {{ lang() == 'ar' ? 'بصفتنا موزعًا عالميًا لإمدادات الطاقة الشمسية ، نسعى لتقديم خدمة سريعة ومعرفة ، يمكننا الحصول على جميع المواد التي تحتاجها عن طريق البحر أو الجو.' : ' As a world wide distributor of solar supplies we
-                                        endeavor provide fast and knowledgeable service, we can
-                                        get all the materials you need by sea or air.' }}
+                                        {{ trans('site.how_the_integration') }}
                                     </p>
                                     <a href="{{ route('contact') }}"
                                     ><i class="energia-arrow-right"></i>@lang('site.our office map')</a

@@ -10,11 +10,11 @@
       linear,
       left top,
       left bottom,
-      from(#0072bc),
-      color-stop(86%, #0072bc)
+      from(#c75a21),
+      color-stop(86%, #c75a21)
     );
-    background-image: -o-linear-gradient(top, #0072bc 0%, #0072bc 86%);
-    background-image: linear-gradient(180deg, #0072bc 0%, #0072bc 86%);
+    background-image: -o-linear-gradient(top, #c75a21 0%, #c75a21 86%);
+    background-image: linear-gradient(180deg, #c75a21 0%, #c75a21 86%);
   }
   .bg-overlay-theme5:before {
     background-image: -webkit-gradient(
@@ -55,7 +55,7 @@
   .pdf, .pdf:hover{
     color: black;
   }
-  
+
   /* slick slider */
 .slick-prev::before,
 .slick-next::before{
@@ -65,3 +65,4 @@
 .slick-next{
     display: none !important;
 }
+
