@@ -19,7 +19,7 @@
 
                         <p>
                             @lang('site.email') :
-                            <a href="../cdn-cgi/l/email-protection.html#254c4b434a65404b4057424c440b464a48"><span
+                            <a href="mailto:{{ $settings->email }}"><span
                                     class="__cf_email__"
                                     data-cfemail="b5dcdbd3daf5d0dbd0c7d2dcd49bd6dad8">{{ $settings->email }}</span>
                             </a>
