@@ -146,7 +146,7 @@
                       <i class="far fa-eye"></i
                       ><a
                             class="img-gallery-item"
-                            href="{{ asset('assets/front') }}/assets/images/projects/full/1.jpg"
+                            href="{{ asset($project->image) }}"
                             title="wind generators item"
                     ></a>
                     </div>

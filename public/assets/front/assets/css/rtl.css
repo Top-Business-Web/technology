@@ -2,11 +2,11 @@ body{
     direction: rtl;
 }
 :root {
-  --global--color-primary: #0072bc;
+  --global--color-primary: #c75a21;
   --global--color-primary-90: rgba(50, 195, 108, 0.9);
   --global--color-primary-70: rgba(50, 195, 108, 0.7);
   --global--color-heading: #253745;
-  --global--color-secondary: #2b3e4b;
+  --global--color-secondary: #0F0F0F;
   --global--color-body: #9b9b9b;
   --global--color-white: #ffffff;
   --global--color-white-90: rgba(255, 255, 255, 0.9);
@@ -1168,7 +1168,7 @@ form .col-12 {
   height: 6px;
   border-color: var(--global--color-body);
   right: 220px;
-  
+
 }
 .form-control.nice-select.open .list {
   width: 100%;
@@ -2080,9 +2080,9 @@ ul.list-icons li i {
   }
 }
 .header .navbar-brand .logo {
-  max-width: 100%;
-  width: 120px;
-  height: 60px;
+    max-width: 100%;
+    width: 100%;
+    height: 60px;
 }
 @media screen and (max-width: 991.98px) {
   .header .navbar-brand .logo {
@@ -17449,11 +17449,11 @@ text-align: right;
     linear,
     left top,
     left bottom,
-    from(#0072bc),
-    color-stop(86%, #0072bc)
+    from(#c75a21),
+    color-stop(86%, #c75a21)
   );
-  background-image: -o-linear-gradient(top, #0072bc 0%, #0072bc 86%);
-  background-image: linear-gradient(180deg, #0072bc 0%, #0072bc 86%);
+  background-image: -o-linear-gradient(top, #c75a21 0%, #c75a21 86%);
+  background-image: linear-gradient(180deg, #c75a21 0%, #c75a21 86%);
 }
 .bg-overlay-theme5:before {
   background-image: -webkit-gradient(
