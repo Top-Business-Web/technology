@@ -106,10 +106,9 @@
                                     >
                                 </li>
 
-
                                 <li class="address">
                                     @lang('site.address')
-                                    <p>{{ $settings->address_en }}</p>
+                                    <p>{{ app()->getLocale() == 'ar' ? $settings->address_ar : $settings->address_en }}</p>
 
 
                                 </li>
@@ -141,7 +140,7 @@
                             <ul class="list-unstyled social-icons">
 
                                 <li>
-                                    <a class="share-facebook" href="{{ $settings->facebook }}"
+                                    <a class="share-facebook" href="{{ $settings->linked_in }}"
                                     ><i class="energia-facebook"></i>@lang('site.facebook')
                                     </a>
                                 </li>

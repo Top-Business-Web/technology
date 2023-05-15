@@ -87,7 +87,7 @@ return [
     'schedule A Visit' => 'schedule A Visit',
     'quote_desc' => 'We take great pride in everything that we do, control over products allows us to ensure our customers receive the best quality service.',
     'send request' => 'send request',
-    'address' => 'address',
+    'address' => 'Address',
 
 
 
