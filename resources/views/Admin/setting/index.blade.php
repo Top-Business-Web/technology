@@ -89,8 +89,24 @@
                         </div> --}}
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label for="">Linked In :</label>
+                                <label for="">Support email :</label>
                                 <input type="text" name="linked_in" value="{{ $settings->linked_in }}"
+                                    class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="">Sales email :</label>
+                                <input type="text" name="youtube" value="{{ $settings->youtube }}"
+                                    class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="">Facebook :</label>
+                                <input type="text" name="facebook" value="{{ $settings->facebook }}"
                                     class="form-control" />
                             </div>
                         </div>

@@ -161,7 +161,7 @@
             <div class="video-wrapper">
                 <div class="video video-2" id="video-2">
                     <div class="bg-section">
-                        <img src="{{ asset('assets/front/image/download.jfif') }}" alt="background"/>
+                        <img src="{{ asset('assets/front/image/camera2.png') }}" alt="background"/>
                     </div>
                 </div>
             </div>
@@ -326,9 +326,9 @@
                         <div class="carousel owl-carousel process-image-carousel" data-slide="1" data-slide-rs="1"
                              data-autoplay="true" data-drag="false" data-nav="false" data-dots="false" data-space="0"
                              data-loop="false" data-speed="800">
-                            <img src="{{ asset('assets/front/image/download.jfif') }}" alt="process"/><img
-                                src="{{ asset('assets/front/image/camera.jfif') }}" alt="process"/><img
-                                src="{{ asset('assets/front/image/download.jfif') }}" alt="process"/>
+                            <img src="{{ asset('assets/front/image/1.png') }}" alt="process"/><img
+                                src="{{ asset('assets/front/image/2.png') }}" alt="process"/><img
+                                src="{{ asset('assets/front/image/3.png') }}" alt="process"/>
                         </div>
                         <div class="processes-panel">
                             <h3 class="panel-title">

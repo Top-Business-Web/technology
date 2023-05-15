@@ -159,6 +159,8 @@ return [
     'Solar material financing' => 'تمويل مواد الكاميرا',
     'In-time manufacturing' => 'التصنيع في الوقت المناسب',
     '50% more energy output' => '50٪ أمان أكثر',
+    'support_email' => 'ايميل الدعم',
+    'sales_email' => 'ايميل المبيعات',
     'Built using ntype mono' => 'بنيت باستخدام ntype mono',
     'Receive an accurate' => 'احصل على عرض أسعار دقيق في غضون 3-5 أيام عند ملء هذا النموذج. أو يقدم لنا دعوة:',
     'We take great pride' => 'نحن نفخر بكل ما نقوم به ، التحكم في المنتجات يسمح لنا بضمان حصول عملائنا على أفضل خدمة ذات جودة.',
