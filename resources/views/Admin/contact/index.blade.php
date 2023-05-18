@@ -90,8 +90,8 @@
                 name: 'phone'
             },
             {
-                data: 'services',
-                name: 'services'
+                data: 'service_id',
+                name: 'service_id'
             },
             {
                 data: 'action',

@@ -19,7 +19,7 @@ class CreateContactsTable extends Migration
             $table->string('name');
             $table->string('email');
             $table->bigInteger('phone');
-            $table->string('services');
+            $table->unsignedBigInteger('service_id');
             $table->text('message');
             $table->timestamps();
         });

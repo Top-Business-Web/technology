@@ -25,7 +25,7 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="">Banners Home :</label>
-                                <input type="file" name="files[]" multiple class="form-control" />
+                                <input type="file" name="files[]" multiple class="form-control"/>
                             </div>
                         </div>
                         <div class="col-md-4">

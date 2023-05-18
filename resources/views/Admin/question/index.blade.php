@@ -9,7 +9,7 @@
             <div class="card" style="padding: 13px">
                 <!-- Card header -->
                 <div class="card-header">
-                    <h5 class="mb-0">Category List</h5>
+                    <h5 class="mb-0">Question List</h5>
                     <div class="add-btn">
 
                         <button type="button" class="btn btn-primary addBtn">Add</button>
@@ -34,7 +34,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Add Category</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Add Question</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -83,12 +83,12 @@
                 name: 'id'
             },
             {
-                data: 'title_en',
-                name: 'title_en'
-            },
-            {
                 data: 'title_ar',
                 name: 'title_ar'
+            },
+            {
+                data: 'title_en',
+                name: 'title_en'
             },
             {
                 data: 'action',

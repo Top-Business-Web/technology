@@ -38,8 +38,8 @@
         }
 
         #toast-container > .toast-success {
-            background-color: white;
-            color: black;
+            background-color: #CB0C9F;
+            color: white;
         }
     </style>
 </head>

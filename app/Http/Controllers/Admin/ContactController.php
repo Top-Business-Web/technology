@@ -23,6 +23,9 @@ class ContactController extends Controller
                             </button>
                        ';
                 })
+                ->editColumn('service_id', function($contacts) {
+                    return '<td>'. $contacts->service->title_en .'</td>';
+                })
                 ->escapeColumns([])
                 ->make(true);
         } else {
