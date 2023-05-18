@@ -21,7 +21,7 @@
     <section class="page-title page-title-14" id="page-title">
         <div class="page-title-wrap bg-overlay bg-overlay-dark-3">
             <div class="bg-section">
-                <img src="{{ asset('assets/front') }}/assets/images/page-titles/14.jpg" alt="Background"/>
+                <img src="{{ asset('assets/front') }}/image/index.jpg" alt="Background"/>
             </div>
             <div class="container">
                 <div class="row">

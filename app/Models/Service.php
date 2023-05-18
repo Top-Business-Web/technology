@@ -23,4 +23,9 @@ class Service extends Model
     {
         return $this->hasMany(Project::class);
     }
+
+    public function contact()
+    {
+        return $this->hasOne(Contact::class);
+    }
 }

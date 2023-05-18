@@ -137,7 +137,7 @@
                                             />
                                         </div>
                                         <div class="col-12 col-md-6">
-                                            <select class="form-control" id="select-1" required name="services">
+                                            <select class="form-control" id="select-1" required name="service_id">
                                                 <option value="">
                                                     @lang('site.select your services')
                                                 </option>
